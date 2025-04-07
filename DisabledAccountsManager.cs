@@ -264,8 +264,6 @@ namespace DisabledAccountsManager
                     {
                         funcToEventLog("DisabledAccountsManager", "DisabledAccountsManager started", 100);
 
-                        funcProgramRegistryTag("DisabledAccountsManager");
-
                         DisabledAccountsParams newParams = funcParseConfigFile(objCMDArguments2);
                         
                         funcModifyDisabledAccounts(newParams);
