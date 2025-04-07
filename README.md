@@ -56,7 +56,7 @@ Output:
 - Path example: (InstallationDirectory)\Log\
 
 Additional detail:
-- DisabledAccountsManager will act on any disabled user account except disabled user accounts excluded from being processed. This includes disabled users account that were disabled manually or by other non-SystemsAdminPro processes. Excluded user accounts include those specified in the configuration file and accounts that are in the OU specified using DisabledUsersLocation parameter in the configuration file.
+- DisabledAccountsManager will act on any disabled user account except disabled user accounts excluded from being processed. This includes disabled users account that were disabled manually or by other automated processes. Excluded user accounts include those specified in the configuration file and accounts that are in the OU specified using DisabledUsersLocation parameter in the configuration file.
 - DisabledAccountsManager is built to perform the following operations on a disabled account:
     - Reset the disabled user account password to a random password
     - Set the disabled user account to force a password change on the next logon (if the account is re-enabled)
