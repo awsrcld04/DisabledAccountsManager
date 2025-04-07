@@ -1,0 +1,39 @@
+// ENSURE THE DisabledUsersLocation PARAMETER BELOW IS A VALID
+// ORGANIZATIONAL UNIT IN ACTIVE DIRECTORY. THE LOCATION 
+// SPECIFIED BELOW WHEN THE SOFTWARE WAS INSTALLED WILL NOT BE
+// VALID
+
+// Location in Active Directory to place disabled accounts
+DisabledUsersLocation=OU=DisabledUsers,OU=DisabledObjects,DC=mylab,DC=invalid
+
+// Switch to determine if ExclusionGroups in Active Directory
+//  will be used
+UseExclusionGroups=yes
+
+// Prefix for accounts to exclude from being processed
+// Use the logon name for the account
+//	Automatic Exclusion: SystemMailbox
+ExcludePrefix=
+
+// Suffix for accounts to exclude from being processed
+// Use the logon name for the account
+ExcludeSuffix=
+
+// Specific accounts to exclude from being processed
+// Use the logon name for the account
+//	Automatic exclusion: Administrator
+//	Automatic exclusion: Guest
+//	Automatic exclusion: krbtgt
+//	Automatic exclusion: SUPPORT_388945a0
+Exclude=
+
+// Number of days to wait before removing disabled accounts
+DisabledHoldPeriod=30
+
+// Prefix to use to reconfigure email address
+//  Email address will be prefixed with the format below
+ReconfigureEmailAddress=yes
+DisabledEmailAddressPrefix=disabled-
+
+// Hide disabled accounts from the Global Address List
+HideFromGlobalAddressList=yes
