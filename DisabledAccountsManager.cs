@@ -1,9 +1,4 @@
-﻿//****************************************
-// Copyright (c) Thinkability Group 2011
-// SystemsAdminPro.com
-//****************************************
-
-// Event ID's
+﻿// Event ID's
 // 1001 - started
 // 1002 - stopped
 // 1003 - number of accounts found
