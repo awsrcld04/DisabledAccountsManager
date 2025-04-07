@@ -863,7 +863,6 @@ namespace DisabledAccountsManager
             dCatchTable.Add("funcPrintParameterSyntax", "f14");
             dCatchTable.Add("funcPrintParameterWarning", "f15");
             dCatchTable.Add("funcProgramExecution", "f16");
-            dCatchTable.Add("funcProgramRegistryTag", "f17");
             dCatchTable.Add("funcRemoveUserAccounts", "f18");
             dCatchTable.Add("funcRemoveUserFromGroup", "f19");
             dCatchTable.Add("funcToEventLog", "f20");
