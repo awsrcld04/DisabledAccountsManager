@@ -1,4 +1,8 @@
-﻿// Event ID's
+﻿// Copyright (C) 2025 Akil Woolfolk Sr. 
+// All Rights Reserved
+// All the changes released under the MIT license as the original code.
+
+// Event ID's
 // 1001 - started
 // 1002 - stopped
 // 1003 - number of accounts found
