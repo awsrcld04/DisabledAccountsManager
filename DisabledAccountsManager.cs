@@ -56,7 +56,7 @@ namespace DisabledAccountsManager
 
         static void funcPrintParameterSyntax()
         {
-            Console.WriteLine("DisabledAccountsManager v1.0 (c) 2011 SystemsAdminPro.com");
+            Console.WriteLine("DisabledAccountsManager v1.0");
             Console.WriteLine();
             Console.WriteLine("Description: Manage disabled user accounts");
             Console.WriteLine();
