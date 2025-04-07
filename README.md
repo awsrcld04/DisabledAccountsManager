@@ -21,7 +21,7 @@ One of following domain functional levels
 - Windows Server 2008 domain functional level
 
 Additional requirements:
-Domain administrative access is required to perform operations by AccountLogonCheck
+Domain administrative access is required to perform operations by DisabledAccountsManager
 
 
 ## Operation and Configuration:
